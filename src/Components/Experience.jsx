@@ -20,16 +20,10 @@ const Experience = () => {
 
     const WeEtVArray = [
         {
-            'timeRange': 'May 2023-Present',
+            'timeRange': 'Sept 2022 - Present',
             'company': 'Lti-Mindtree',
             'jobRole': 'Senior Software Engineer',
-            'description': 'Developed responsive UIs using ReactJS, Tailwind CSS, and Redux Toolkit. Integrated REST APIs, JWT auth,image uploads, and implemented reusable component architecture with routing and state management.'
-        },
-        {
-            'timeRange': 'Sept 2022-2023 May',
-            'company': 'Lti-Mindtree',
-            'jobRole': 'Software Engineer',
-            'description': 'Built backend services in Node.js to fetch and parse API data, generate Excel invoices using    xlsx, and automate invoice delivery via node mailer.'
+            'description': 'Developed backend services using Node.js and Express.js to parse large Excel sheets and integrate multiple external API responses to generate and deliver automated client-specific invoices. Designed frontend interfaces using ReactJS, Tailwind CSS, and Redux Toolkit to visually present client and product data using dynamic graphs and charts. Implemented AI-powered features to detect toxic content and flagged terms in invoice data using NLP-based APIs. Applied performance optimization techniques (lazy loading, memoization, code splitting), implemented unit testing with Jest and React Testing Library (RTA), and followed agile practices using Git, Bitbucket, and Jira'
         },
         {
             'timeRange': 'Jan 2022-Jul 2022',
@@ -58,9 +52,12 @@ const Experience = () => {
     ]
     return (
         <div className="w-full h-full flex items-center justify-center flex-wrap">
-            <div className={`w-full h-20 ${bg}`}>
-                <div className={`w-full h-20 ${bg} flex justify-start items-center`}>
+            <div className={`w-full h-20 ${bg} flex flex-wrap` }>
+                <div className={`w-1/2 h-20 ${bg} flex justify-start items-center`}>
                     <h1 className={`ml-10 font-bold text-[20px] ${theme ? 'text-[#086788]' : 'text-[#FFFFFF]'}`}>Work Experience And Education Timeline View</h1>
+                </div>
+                 <div className={`w-1/2 h-20 ${bg} flex justify-center items-center`}>
+                  <a href="https://drive.google.com/file/d/1DfEbP1DkXo604vewXhebBEoMBas1xe3y/view?usp=sharing"> <button className={`w-20 h-7 rounded-lg  ${bgvv} ${theme ? 'text-[#FFFFFF]' : 'text-[#086788]'}`}>Resume</button></a> 
                 </div>
             </div>
             <div className={`w-full h-full ${bg} `}>

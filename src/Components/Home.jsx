@@ -27,8 +27,7 @@ const HomePage = () => {
 
                 </div>
                 <div className={`pl-25 pr-20 h-50 ${bg} flex justify-center items-start`}>
-                    <p className={` text-[20px] ${theme ? 'text-[#086788]' : 'text-[#FFFFFF]'}`}>Innovative Frontend Developer with 3 years &nbsp; &nbsp; of experience in building scalable web apps using ReactJS, Redux Toolkit,
-                        and also &nbsp;&nbsp;Tailwind CSS. Passionate about UI/UX and integrating AI-powered features into&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;production-grade applications.</p>
+                    <p className={` text-[20px] ${theme ? 'text-[#086788]' : 'text-[#FFFFFF]'}`}>Innovative Full stack Developer with 2 years of experience in building scalable web apps using ReactJS, Redux Toolkit, and Tailwind CSS and NodeJS and MongoDB. Passionate about UI/UX and integrating AI-powered features into prod-grade applications.</p>
                 </div>
                 <div className={`w-full h-40 ${bg} flex justify-center items-center`}>
                     <div className={`w-1/2 h-10 ${bg} flex justify-evenly items-center`}>
@@ -72,7 +71,7 @@ const HomePage = () => {
                     backgroundImage: 'url("/bg_1.jpg")',
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
-                }} className={`w-full h-full`}></div>
+                }} className={`w-1/2 h-3/4 rounded-sm`}></div>
 
 
 
